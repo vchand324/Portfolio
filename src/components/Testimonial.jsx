@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Testimonial = () => {
-  const animation = {};
 
   return (
     <div id="testimonial">
