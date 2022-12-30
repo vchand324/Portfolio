@@ -1,0 +1,444 @@
+@media screen and (max-width: 1300px) {
+    nav {
+        padding: 0 $p_md;
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_md;
+
+                >div aside {
+                    width: 85%;
+                }
+            }
+        }
+    }
+
+    #work {
+        padding: 8rem $p_md 8rem;
+        height: 110vh;
+
+        >section {
+            article {
+                height: 25rem;
+                width: 90%;
+            }
+
+            .workItem {
+                padding: 2rem;
+                height: 25rem;
+
+                >aside {
+                    >p {
+                        margin: 1rem;
+                    }
+
+                    >a {
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #services {
+        padding: $p_md;
+
+        >section {
+            height: 90%;
+        }
+    }
+
+    #testimonial {
+        padding: $p_md;
+
+        >section {
+            width: 100%;
+        }
+    }
+
+    #contact {
+        >section>form {
+
+            >input,
+            >button {
+                font: 400 0.8rem $text1;
+                width: 50%;
+            }
+        }
+    }
+
+    footer {
+        padding-left: $p_md;
+    }
+}
+
+//----------------------media query(1100px)  
+
+@media screen and (max-width: 1100px) {
+    nav {
+        padding: 0 $p_base;
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_base;
+
+                >div {
+                    >h1 {
+                        font: 900 3rem $text1
+                    }
+
+                    aside {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #work {
+        padding: 8rem $p_base 8rem;
+    }
+
+    #services {
+        padding: $p_base_inverse;
+        text-align: center;
+    }
+
+    footer {
+        grid-template-columns: 8fr 4fr 2fr;
+    }
+}
+
+// ------------- mediaquery (900px) 
+
+@media screen and (max-width: 900px) {
+    nav {
+        padding: 0 $p_sm;
+
+        >h2 {
+            font-size: 1.8rem;
+        }
+
+        >div {
+            gap: 1rem;
+        }
+    }
+
+    #home {
+        height: 100vh;
+
+        >section {
+            &:first-of-type {
+                padding-left: $p_sm;
+
+                >div {
+                    >.hire {
+                        gap: 2rem;
+
+                        >a {
+                            &:first-of-type {
+                                padding: 1rem 1.5rem;
+                            }
+                        }
+                    }
+
+                    aside {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+
+    #work {
+        padding: 8rem $p_zero;
+
+        >section {
+            border-radius: 0;
+
+            article {
+                height: 22rem;
+            }
+
+            .workItem {
+                height: 22rem;
+            }
+        }
+    }
+
+    #services {
+        padding: $p_sm_inverse;
+        height: 90vh;
+    }
+
+    #testimonial {
+        padding: $p_zero $p_zero $p $p_zero;
+
+        >h2 {
+            padding: 3rem;
+            margin-bottom: 0;
+        }
+
+        >section {
+            border-radius: 0;
+            padding: 3rem;
+            height: 45rem;
+            justify-content: space-evenly;
+
+            >article {
+                width: 40%;
+                height: 40%;
+            }
+        }
+    }
+
+    #contact {
+        >section>form {
+            >h2 {
+                font: 100 2.3rem $text1;
+            }
+
+            >input,
+            >button {
+                font: 400 0.8rem $text1;
+                width: 50%;
+            }
+        }
+    }
+
+    footer {
+        padding-left: $p_zero;
+        // grid-template-columns: 1fr;
+
+        >div {
+            width: 100%;
+            border-left: none;
+            // p { 
+            //     // width: 50%;
+            //     // margin: 2rem auto;
+            // }
+        }
+    }
+}
+
+// -------- mediaquery(750px)
+
+
+@media screen and (max-width: 750px) {
+    nav {
+
+        >div,
+        >a {
+            display: none;
+        }
+    }
+
+    .navBtn {
+        display: block;
+    }
+}
+
+// ----------- mediaquery (650px) 
+
+
+@media screen and (max-width: 650px) {
+
+    #home {
+        height: unset;
+        flex-direction: column-reverse;
+
+        >section {
+            &:first-of-type {
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                >div {
+                    padding-top: 3rem;
+
+                    >h1 {
+                        font: 900 2.5rem $text1;
+                    }
+
+                    >div {
+                        flex-direction: column;
+                    }
+
+                    aside {
+                        align-items: center;
+                    }
+
+                    article[data-special] {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        span {
+                            display: block;
+                            width: 70%;
+                            word-wrap: break-word;
+
+                        }
+                    }
+
+                    article {
+                        width: 100%;
+                        text-align: center;
+
+                        &::after {
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+
+            &:last-of-type {
+                border: none;
+            }
+        }
+
+        >svg {
+            font-size: 2rem;
+            bottom: 2%;
+        }
+
+    }
+
+    #work {
+        padding: 8rem $p_zero;
+
+        >section {
+            border-radius: 0;
+
+            article {
+                height: 30vmax;
+                width: 100%;
+            }
+
+            .workItem {
+                height: 30vmax;
+                border-radius: 0;
+
+                >aside {
+                    padding: 1rem;
+
+                    >h3 {
+                        margin: 1rem;
+                        font-size: 1rem;
+                    }
+
+                    >p {
+                        letter-spacing: 0;
+                        line-height: unset;
+                        margin: 0;
+                        font-size: 0.75rem;
+                    }
+
+                    >a {
+                        padding: 0.4rem 0.7rem;
+                        font-size: 0.7rem;
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #timeline {
+        .timelineBox::after {
+            left: 31px;
+        }
+
+        .timelineItem {
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+
+            div {
+                text-align: center;
+            }
+        }
+
+        .rightTimeline {
+            left: 0;
+        }
+
+        .leftTimeline,
+        .rightTimeline {
+            &::after {
+                left: 15px;
+            }
+        }
+    }
+
+    #services {
+        >section {
+            margin: 3rem 0;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+
+            .serviceBox1 {
+                grid-column: 1/3;
+                grid-row: unset;
+            }
+
+            .serviceBox4 {
+                grid-column: 1/3;
+            }
+
+            * {
+                border-radius: 0;
+            }
+        }
+    }
+
+    #testimonial>section {
+        height: unset;
+        gap: 3rem;
+
+        >article {
+            width: 100%;
+            height: 100vw;
+            margin-top: 1rem;
+        }
+    }
+
+    #contact {
+        grid-template-columns: 1fr;
+
+        > aside {
+            display: none;
+        }
+    }
+
+    footer {
+        padding-left: $p_zero;
+        grid-template-columns: 1fr;
+
+        >div {
+            width: 100%;
+            border: none;
+
+            p {
+                width: 50%;
+                margin: 2rem auto;
+            }
+        }
+
+        >a {
+            margin: 2rem;
+        }
+    }
+}

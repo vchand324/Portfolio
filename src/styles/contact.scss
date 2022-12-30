@@ -1,0 +1,78 @@
+#contact {
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $color2_1;
+
+    > section {
+        // background-color: $color2_1;
+        width: 100%;
+        height: 100%;
+        // box-shadow: rgba(3, 3, 3, 0.692) 0px 20px 30px -10px;
+
+
+        > form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            > h2 {
+                text-align: center;
+                font: 400 2.9rem $text2;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin: 2rem;
+                // padding: 0 4rem;
+                // border-radius: 10px;
+                color: $color1;
+                // box-shadow: rgba(3, 3, 3, 0.377) 0px 20px 30px -10px;
+            }
+
+
+            > input, > textarea, > button {
+                padding: 0.8rem;
+                width: 50%;
+                outline: none;
+                font: 400 0.9rem $text1;
+                margin: 1rem;
+                border: none;
+                border-radius: 10px;
+                resize: vertical;
+                box-shadow: rgba(3, 3, 3, 0.377) 0px 20px 30px -10px;
+
+            }
+
+            > button {
+                cursor: pointer;
+                background-color: $color2_1;
+                color: $color4;
+                font: 600 1rem $text1;
+                text-transform: uppercase;
+                margin: 3rem;
+                box-shadow: rgba(3, 3, 3, 0.377) 0px 20px 30px -10px;
+                transition: all 0.3s;
+                 
+                &:hover {
+                    background-color: $color2;
+                }
+            }
+        }
+    }
+
+    > aside {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        
+        img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            filter: drop-shadow(16px 16px 20px rgba(17, 17, 17, 0.63)) contrast(150%) hue-rotate(670deg);
+            animation: upupdowndown 0.7s infinite ease-in-out alternate;
+        }
+    }
+}
