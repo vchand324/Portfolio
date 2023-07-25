@@ -24,7 +24,9 @@ export const HeaderPhone = ({ menuOpen,setMenuOpen }) => {
 
 export const NavContent = ({ setMenuOpen }) => (
   <>
-    <h2>Ashish.</h2>
+    
+    <h2>Vishal</h2>
+    
     <div>
       <a onClick={() => setMenuOpen(false)} href="#home">
         Home
@@ -45,7 +47,7 @@ export const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
     </div>
-    <a href="mailto:rashish1313@gmail.com ">
+    <a href="mailto:vchand324@gmail.com ">
       <button>Email</button>
     </a>
   </>

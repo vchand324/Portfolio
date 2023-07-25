@@ -1,29 +1,27 @@
 import React from "react";
 import { AiOutlineArrowUp, AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import phot from '../assets/portfoliodp.png'
 
 const Footer = () => {
   return (
     <footer>
       <div>
-        <img
-          src="https://vercel.com/api/www/avatar/2642e545030466002f33f7ff3a1b53e781a32ab5?s=160"
-          alt="Founder"
-        />
+      <img src={phot} alt="vishal" />
 
-        <h2>Ashish</h2>
+        <h2>Vishal</h2>
         <p>Everything is Figureoutable ^_^</p>
       </div>
 
       <aside>
       <h2>Social Media</h2>
         <article>
-            <a href="https://github.com/Ash-0002" target={"blank"}>
+            <a href="https://github.com/vchand324" target={"blank"}>
                 <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/ashish-rajput-720b031a1/" target={"blank"}>
+            <a href="https://www.linkedin.com/in/vishal324/" target={"blank"}>
                 <AiFillLinkedin />
             </a>
-            <a href="https://www.instagram.com/factsnotice/?hl=en" target={"blank"}>
+            <a href="https://www.instagram.com/its_arrey/" target={"blank"}>
                 <AiFillInstagram /> 
             </a>
         </article>

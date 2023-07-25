@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/logo1.png";
+import me from "../assets/dp1.png";
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
@@ -50,7 +50,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           {
-            ratio < 2 && <motion.h1 {...animations.h1}>Hi, I am Ashish</motion.h1>
+            ratio < 2 && <motion.h1 {...animations.h1}>Hi, I am Vishal</motion.h1>
           }
 
           <Typewriter
@@ -63,7 +63,7 @@ const Home = ({ ratio }) => {
           />
 
           <div className="hire">
-            <a href="mailto:rashish1313@gmail.com ">Hire Me</a>
+            <a href="mailto:vchand324@gmail.com ">Hire Me</a>
             <a href="#work">
               Project <BsArrowUpRight />
             </a>
@@ -102,13 +102,13 @@ const Home = ({ ratio }) => {
 
             <article data-special>
               <p>Contact</p>
-              <span>rashish1313@gmail.com</span>
+              <span>vchand324@gmail.com</span>
             </article>
           </aside>
         </div>
       </section>
       <section>
-        <img src={me} alt="Ashish" />
+        <img src={me} alt="vishal" />
       </section>
       <BsChevronDown />
     </div>

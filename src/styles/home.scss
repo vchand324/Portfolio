@@ -110,12 +110,13 @@
             }
 
             > img {
-                width: 40vmax;
+                width: 45vmax;
                 object-fit: contain;
                 height: 40vmax;
                 // transform: scale(1.047);
                 // border-radius: 50%;
-                filter: drop-shadow(16px 16px 20px rgba(190, 196, 192, 0.158)) contrast(200%);
+               
+               
              }
         }
     }

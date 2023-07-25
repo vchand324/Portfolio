@@ -9,21 +9,21 @@ const Testimonial = () => {
 
       <section>
         <TestimonialCard
-          name={"Henry"}
+          name={"Abhishek"}
+          feedback={
+            "I am delighted with the web development services provided by you."
+          }
+        />
+        <TestimonialCard
+          name={"shivam"}
           feedback={
             "You're doing great, just keep going. This site is also looking awesome👌."
           }
         />
         <TestimonialCard
-          name={"Henry"}
+          name={"Shanky"}
           feedback={
-            "You're doing great, just keep going. This site is also looking awesome👌."
-          }
-        />
-        <TestimonialCard
-          name={"Henry"}
-          feedback={
-            "You're doing great, just keep going. This site is also looking awesome👌."
+            "Thank you, for a website that truly represents my vision and my expectations."
           }
         />
       </section>

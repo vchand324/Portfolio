@@ -1,5 +1,21 @@
 {
   "projects": [
+
+    {
+      "date": "07/10/2022",
+      "title": "Sorting Algo visualizer",
+      "description": "A Digital Services React-app, build with reactjs and SASS for styling. Fully mobile responsive",
+      "url": "https://project1-zeta-seven.vercel.app",
+      "imgSrc": "https://cdn.pixabay.com/photo/2011/09/14/14/06/soap-9244_1280.jpg"
+    },
+
+    {
+      "date": "07/10/2022",
+      "title": "Sortest Path finder",
+      "description": "A Digital Services React-app, build with reactjs and SASS for styling. Fully mobile responsive",
+      "url": "https://project1-zeta-seven.vercel.app",
+      "imgSrc": "https://media.istockphoto.com/id/1184360233/photo/the-red-arrow-finds-its-optimal-path-through-many-impassable-options-strategic-planning.jpg?s=1024x1024&w=is&k=20&c=hVGXnWP3ZZOolMfyg8Sj59NPvFCLp2rEXYEAfYIQ8gs="
+    },
     {
       "date": "07/10/2022",
       "title": "SOLGEEK",
