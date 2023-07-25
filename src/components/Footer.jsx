@@ -15,7 +15,7 @@ const Footer = () => {
       <aside>
       <h2>Social Media</h2>
         <article>
-            <a href="https://github.com/vchand324" target={"blank"}>
+            <a href="#" target={"blank"}>
                 <AiFillGithub />
             </a>
             <a href="https://www.linkedin.com/in/vishal324/" target={"blank"}>
